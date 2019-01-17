@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity{
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         new Thread(new Runnable() {
             @Override
             public void run()  {
@@ -83,6 +84,8 @@ public class MainActivity extends AppCompatActivity{
         }).start();
 
     }
+=======
+>>>>>>> parent of 75afada... working
 =======
 >>>>>>> parent of 75afada... working
 
@@ -122,11 +125,19 @@ public class MainActivity extends AppCompatActivity{
                     BigInteger sendValue = BigInteger.valueOf(1000000000000L);
                     String des = "0x7312F4B8A4457a36827f185325Fd6B66a3f8BB8B";
                     RawTransaction rawTx  = createTX(srcNonce, des, sendValue);
+<<<<<<< HEAD
 
                     // Sign the TX with Credential
                     byte[] signedTX = TransactionEncoder.signTxEIP155(rawTx, 100, credentials);
                     String signedRawTx = Numeric.toHexString(signedTX);
 
+=======
+
+                    // Sign the TX with Credential
+                    byte[] signedTX = TransactionEncoder.signTxEIP155(rawTx, 100, credentials);
+                    String signedRawTx = Numeric.toHexString(signedTX);
+
+>>>>>>> parent of 75afada... working
                     System.out.println("Signed RawTX: "+signedRawTx);
 
                     // Send the TX to the network and wait for the results
