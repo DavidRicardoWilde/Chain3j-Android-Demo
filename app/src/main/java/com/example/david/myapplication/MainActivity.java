@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity{
                     String walletFileName="";
                     String walletFilePath="";
                     String passwrod="test123";
-                    walletFileName
+                    //walletFileName
 //                    WalletFile walletFile;
 //                    ECKeyPair ecKeyPair = Keys.createEcKeyPair();
 //                    walletFile = Wallet.createStandard(password, ecKeyPair);
